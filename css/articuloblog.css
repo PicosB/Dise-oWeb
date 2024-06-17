@@ -1,0 +1,40 @@
+body{
+    background: repeating-linear-gradient(to top,rgb(255, 158, 109),rgb(45, 196, 234));
+}
+
+h1{
+    text-align: center;
+    color:white;
+    background-color: black;
+    font-size: 50px;
+    margin-bottom: 0%;
+}
+
+.subtitulo{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-top: 0%;
+}
+
+.centrar-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.margen-texto{
+    text-align: justify;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.centered-list-container {
+    text-align: justify;
+    margin-left: 20%;
+    margin-right: 30%;
+}
+
+.centered-list li {
+    text-decoration: none;  
+}

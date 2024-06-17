@@ -1,0 +1,45 @@
+/*Documento css*/
+
+body{background-color: rgb(232, 177, 167);}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    color: rgb(30, 71, 23);
+}
+
+.contenedor{
+    border-bottom: 5px solid black;
+}
+
+.centrar{
+    text-align: center;
+}
+
+.imagen{
+    float: right;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.imagen2{
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.warning{
+    color: red
+}
+
+.successful{
+    color:green;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }

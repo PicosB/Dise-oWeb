@@ -1,0 +1,19 @@
+
+.multimedia{
+    margin: 20px auto 0px auto;
+    width: 70%;
+    text-align: center;
+    display: flex;
+}
+
+
+div {width: 100%;
+    background-color: red;}
+
+.multimedia div { 
+    width: 50%;}
+
+section.multimedia div{
+    width: 100%;
+    height: 300px;
+}
