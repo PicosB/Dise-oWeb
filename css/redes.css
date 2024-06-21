@@ -1,0 +1,79 @@
+/*Documento CSS*/
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+h1{
+    font-size: 3em;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section, div, a{
+    box-sizing: border-box;
+}
+
+.sociales{
+    background-color: #cecccc ;
+    padding: 30px 0px;
+    min-height: 1px;
+}
+
+.container{
+    display: flex;
+    width: 300px;
+    margin: auto;
+    min-height: 1px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.items{
+    font-size: 6em;
+    width: 40%;
+    text-align: center;
+    color: black;
+    height: 140px;
+    border-radius: 300px;
+    padding-top: 17px;
+    background-color: white;
+    margin-top: 8px;
+}
+
+/*MEDIA QUERIES PANTALLAS + 600px*/
+@media only screen and (min-width: 900px) {
+    a.items{
+        color: red;
+        background: black;
+        width: 20%;
+        font-size: 3em;
+        height: 83px;
+        margin-top: 6px;
+    }
+
+    .container{
+        width: 400px;
+        justify-content: space-between;
+
+    }
+
+    .sociales{
+        padding-bottom: 50px;
+    }
+
+    a.items:hover{
+        color: white;
+
+    }
+}

@@ -38,3 +38,23 @@ h1{
 .centered-list li {
     text-decoration: none;  
 }
+
+.imagen{
+    float: right;
+    margin-right: 20px;
+    margin-left: 40px;
+    margin-top: 35px;
+}
+
+.imagen2{
+    float: left;
+    margin-right: 40px;
+    margin-left: 20px;
+    margin-top: 35px;
+}
+
+.margen-der{
+    text-align: justify;
+    margin-left: 40%;
+    margin-right: 5%;
+}
