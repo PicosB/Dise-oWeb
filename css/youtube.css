@@ -11,17 +11,72 @@ body{
 .container{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .video{
     background: white;
     width: 270px;
-    height: 400px;
+    height: 320px;
     margin: 10px;
+    border-radius: 15px;
 }
 
 .img-video{
-    background-color: aqua;
-    height: 150px;
+    height: 200px;
     margin-bottom: 15px;
+    background-size: cover;
+}
+
+.video1{
+    background-image: url('/img/pastel.jpg');
+}
+
+.video2{
+    background-image: url('/img/semillas.jpg');
+    background-size: 270px 225px;
+    background-repeat: no-repeat;
+}
+
+.video3{
+    background-image: url('/img/corbata.jpg');
+    background-size: 270px 200px;
+    background-repeat: no-repeat;
+}
+
+.titulo{
+    background-color: black;
+    padding: 10px;
+}
+
+.items{
+    font-size: 2em;
+    color: red;
+    margin-right: 10px;
+}
+
+.container2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.video:hover{
+    background-color: #6b6b6b;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.video-link{
+    text-decoration: none;
+    color:inherit;
+}
+
+h1{
+    color: white;
+}
+
+p{
+    color: #6b6b6b;
 }
