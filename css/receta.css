@@ -1,5 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 h1{
+    font-family: 'valliteregular' ;
     text-align: center;
+    font-size: 6em;
+}
+
+h2{
+    font-family: 'valliteregular' ;
+    padding-left: 30px;
+    font-size: 4em;
+    text-align: center;
+}
+
+li{
+    font-size: 1.4em;
+    text-align: justify;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+dd{
+    font-size: 1.5em;
+}
+
+footer{
+    text-align: center;
+    background-color: #BFBEBE;
+    padding: 10px 0px;
 }
 
 .centrar-img {
@@ -9,7 +40,41 @@ h1{
 }
 
 body{
-    font-family: 'valliteregular' ;
+    background-color: #DEDEDE;
+}
+
+.cabecera{
+    background-color: #BFBEBE ;
+    padding: 20px 0px;
+    min-height: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 15px;
+    text-align: justify;
+}
+
+.container > div {
+    flex: 1; 
+    margin: 0 5px; 
+}
+.container > div:first-child {
+    margin-left: 0; 
+}
+.container > div:last-child {
+    margin-right: 0; 
+}
+
+.imagenes{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 8%;
+    margin-right: 8%;
+    gap: 20px;
 }
 
 /*Fonts*/
